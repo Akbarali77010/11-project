@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.container{
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.pro1{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50px;
+}
+.pro2{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    right: 50px;
+}
+
+.pro3{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    position: sticky;
+    top: 50px;
+}
+
+.pro4 {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 50px;
+}
